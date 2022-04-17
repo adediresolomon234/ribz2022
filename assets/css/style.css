@@ -589,7 +589,7 @@ section .container {
   min-height: 320px;
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: 400px;
   border-radius: 20px;
   margin: auto;
   position: relative;
