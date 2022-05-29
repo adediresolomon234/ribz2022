@@ -29,8 +29,10 @@ h1 a{
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/DSC_3290-Edit.jpg") top right no-repeat;
-  background-size: cover;
+  background: #040404 url("../img/DSC_2589-Edit.jpg")  right no-repeat;
+  background-position:50% 15%;
+  background-attachment: fixed;
+  background-size:cover;
   left: 0;
   right: 0;
   top: 0;
@@ -439,6 +441,8 @@ section .container {
   display: inline-block;
   background: #4ceb95;
   margin: 4px 10px;
+  font-family: "Poppins", sans-serif;
+  
   
 }
 .section-title p {
@@ -451,6 +455,10 @@ section .container {
   color: #fff;
 }
 
+.our-story{
+  font-family: "Poppins",sans-serif;
+  text-align: justify;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -458,6 +466,7 @@ section .container {
   font-weight: 700;
   font-size: 26px;
   color: #18d26e;
+  font-family: "Poppins", sans-serif;
 }
 .about-me .content ul {
   list-style: none;
@@ -605,14 +614,17 @@ section .container {
   justify-content: center;
   align-items: center;
   margin: 12px;
+  font-family: "Poppins";
 }
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins";
 }
+
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
   font-size: 26px;
@@ -633,6 +645,7 @@ section .container {
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
   background: rgba(255, 255, 255, 0.1);
+  text-align: justify;
 
   border-radius: 6px;
   position: relative;
@@ -1073,6 +1086,7 @@ section .container {
   transition: 0.3s;
   color: #fff;
 }
+
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
   background-color: rgba(255, 255, 255, 0.11);
 }
@@ -1161,3 +1175,30 @@ section .container {
 .swiper .swiper-slide{
   margin-bottom: 30px;
 }
+
+.rsvp{
+  text-decoration: none;
+ 
+}
+.section-title i{
+ margin: 10px;
+ position: relative;
+ color: #18d26e;
+ font-weight: 300;
+ font-size: 20px;
+ text-align: center;
+ top: 5px;
+}
+
+.section-title2{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.rsvp-info{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+}
+
